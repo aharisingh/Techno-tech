@@ -1,0 +1,68 @@
+
+html{
+    height: 100%;
+}
+body{
+    background: url(images/laptop.jpg);
+   background-size: cover;
+    background-position: center;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.navbar-light .navbar-brand {
+    color: orange;
+    font-size: 40px;
+  margin-left: -120px;
+}
+.bg-light {
+    background-color: green!important;
+  
+}
+a{
+    color: white;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: orange;
+    margin-right: 30px;
+   
+}
+#hoverr1{
+   
+}
+
+#hoverr1 ul li{
+    
+    text-decoration: none;
+    
+    display: block;
+    display: none;
+    color: orange;
+   
+}
+#hoverr1:hover ul li{
+    text-decoration: underline;
+    background-color: green;
+    margin-bottom: 2px solid black;
+    display: block;
+}
+
+#right{
+    position: relative;
+    margin-right: -125px;
+}
+.child{
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+    padding-left: 0px;
+    color: orangered;
+}
+button{
+    position: relative;
+    top: 5px;
+    background-color:  chartreuse;
+}
+button:hover{
+    background-color: orange;
+}
+
